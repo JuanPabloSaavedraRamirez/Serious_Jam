@@ -13,10 +13,9 @@ namespace Scripts.Score
         {
             _scoreSystemCore = ScoreSystemCore.Instance;
         }
-
-        private void OnTriggerEnter(Collider other)
+        private void OnCollisionEnter(Collision collision)
         {
-            if (other.CompareTag("Ball"))
+            if (collision.gameObject.CompareTag("Ball"))
             {
                 if (_scoreSystemCore == null) Debug.LogError("[ScoreCollider] ScoreSystemCore instance is null");
                 else _scoreSystemCore.AddScore(_scoreCount);
