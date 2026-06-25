@@ -6,5 +6,6 @@ namespace UI.Menu
         Settings,
         Credits,
         SelectLevel,
+        ExitGame,
     }
 }
