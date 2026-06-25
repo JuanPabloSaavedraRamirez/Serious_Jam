@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a752eccae0744da4e8a61fe5302c6fad, type: 3}
   m_Name: FMOD_EventsSO
   m_EditorClassIdentifier: Assembly-CSharp::FMOD_EventsSO
-  fMODEventsMusicSO: {fileID: 0}
-  fMODEventsSFXSO: {fileID: 0}
-  fMODEventsAmbienceSO: {fileID: 0}
+  fMODEventsMusicSO: {fileID: 11400000, guid: ea8e608423cc85142af1741bf77f48e9, type: 2}
+  fMODEventsSFXSO: {fileID: 11400000, guid: 7a04b13b6ecef1c469e9c868b13ae13f, type: 2}
+  fMODEventsAmbienceSO: {fileID: 11400000, guid: ead8f0558a7e3b3408c8ef0ad7b45b6c, type: 2}
