@@ -17,6 +17,7 @@ namespace Scripts.Score
         #region Events
         public event Action OnGoalCompleted;
         public event Action<int> OnScoreChanged;
+        public event Action<int> OnMaxScore;
         #endregion
 
         #region Logic
@@ -24,6 +25,7 @@ namespace Scripts.Score
         {
             ResetScore();
             goalScore = goal;
+            OnMaxScore?.Invoke(goalScore);
         }
         public int AddScore(int newScore)
         {
