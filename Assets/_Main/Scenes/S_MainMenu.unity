@@ -896,9 +896,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 67.7
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1133,14 +1133,51 @@ PrefabInstance:
       value: Canvas_Example
       objectReference: {fileID: 0}
     - target: {fileID: 7337454642240963173, guid: b161a58d49ffc4b479beb19882512cd5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337454642240963173, guid: b161a58d49ffc4b479beb19882512cd5, type: 3}
       propertyPath: sceneName
       value: S_Gameplay
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5244571987981437353, guid: b161a58d49ffc4b479beb19882512cd5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4522568353306740854}
   m_SourcePrefab: {fileID: 100100000, guid: b161a58d49ffc4b479beb19882512cd5, type: 3}
+--- !u!1 &4522568353306740852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5244571987981437353, guid: b161a58d49ffc4b479beb19882512cd5, type: 3}
+  m_PrefabInstance: {fileID: 4522568353306740851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4522568353306740853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6978950812632374075, guid: b161a58d49ffc4b479beb19882512cd5, type: 3}
+  m_PrefabInstance: {fileID: 4522568353306740851}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &4522568353306740854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522568353306740852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60c6958639521a48bfb55b3ecf682f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadPrefabExample
+  ExamplePrefab: {fileID: 31091065157251714, guid: 527b9aa78db6c3c4785a6d9814f7494e, type: 3}
+  button: {fileID: 4522568353306740853}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
