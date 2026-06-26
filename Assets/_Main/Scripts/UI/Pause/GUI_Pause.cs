@@ -40,5 +40,7 @@ namespace UI
         private void OnPlayerPaused() => _pauseScreen.SetActive(true);
         private void OnPlayerResumed() => _pauseScreen.SetActive(false);
         #endregion
+
+        //Needed Add logic to resume game and Back to main menu
     }
 }
